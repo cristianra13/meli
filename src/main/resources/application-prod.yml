@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: dna_mutants
+      uri: mongodb+srv://mutant_user:mutant_pass_mongo@cluster0.pvaos.mongodb.net/dna_mutants?retryWrites=true&w=majority

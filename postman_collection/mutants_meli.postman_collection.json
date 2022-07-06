@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "cfbda22c-2761-4fa5-a0c8-acaa51277545",
+		"name": "mutants_meli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostMutant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dna\": [\n        \"ATGCGA\",\n        \"CGGTGC\",\n        \"TTATGT\",\n        \"AGAAGG\",\n        \"CCCCTA\",\n        \"TCACTG\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/mutant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Human Dna",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dna\": [\n        \"ATGCTA\",\n        \"CCGTGC\",\n        \"TTATGT\",\n        \"AGAAGG\",\n        \"GCCCTA\",\n        \"TCACTG\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/mutant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Stats AWS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://18.188.79.36:8080/stats",
+					"protocol": "http",
+					"host": [
+						"18",
+						"188",
+						"79",
+						"36"
+					],
+					"port": "8080",
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Mutant AWS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dna\": [\n        \"ATGCGA\",\n        \"CGGTGC\",\n        \"TTATGT\",\n        \"AGAAGG\",\n        \"CCCCTA\",\n        \"TCACTG\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://18.188.79.36:8080/mutant",
+					"protocol": "http",
+					"host": [
+						"18",
+						"188",
+						"79",
+						"36"
+					],
+					"port": "8080",
+					"path": [
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Human DNA AWS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dna\": [\n        \"ATGCTA\",\n        \"CCGTGC\",\n        \"TTATGT\",\n        \"AGAAGG\",\n        \"GCCCTA\",\n        \"TCACTG\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://18.188.79.36:8080/mutant",
+					"protocol": "http",
+					"host": [
+						"18",
+						"188",
+						"79",
+						"36"
+					],
+					"port": "8080",
+					"path": [
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
